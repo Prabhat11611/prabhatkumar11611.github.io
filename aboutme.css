@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/Lonavala.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*keep the position to relative, because ye ladscape image cut ho jayega ya fir chota image open hoga mobile par dekhne se.*/
+    background-position: inherit;
+    height: 20%;
+    margin: 0;
+    padding: 80px;
+    max-width: 100%;
+    margin: auto;
+    background-color:black;
+}
+
+p {
+    color: rgb(255, 0, 174);
+    padding: 25px;
+    font-size: 50px;
+    font-family: Georgia, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 4px 4px 2px white;
+    /**font-family: 'Poppins', sans-serif;**/
+
+    @media screen and (min-width:601px) {}
+
+}
+
+p1,p2,p3,p4,p5,p6,p7,p8,p9 {
+    color: rgb(255, 60, 0);
+    font-size: 3vh;
+    font-family: verdana, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(237, 244, 237);
+
+    @media screen and (min-width:601px) {}
+}
